@@ -2,7 +2,7 @@ package IfStringAnagramsQuestion1_4;
 
 public class IfStringAnagramsQuestion1_4 {
 
-		public static boolean anagram(String s, String t) {
+		public static boolean anagram(String s, String t) { //回文变换字母位置后左右对称；所有元素为偶数个；一个元素为奇数，其他为偶可构成回文
 			if (s.length() != t.length()) return false;
 			int[] letters = new int[256];
 			int num_unique_chars = 0;
