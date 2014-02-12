@@ -15,7 +15,7 @@ public class UniqueCharactersQuestion1_1 {
 			public static boolean isUniqueChars2(String str) {
 				boolean[] char_set = new boolean[256];
 				for (int i = 0; i < str.length(); i++) {
-					int val = str.charAt(i);
+					int val = str.charAt(i);           //charAt(i)返回在i位置上的char的值
 					if (char_set[val]) return false;
 					char_set[val] = true;
 				}
