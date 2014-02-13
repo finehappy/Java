@@ -30,7 +30,7 @@ public class IfStringAnagramsQuestion1_4 {
 		}
 		
 		public static void main(String[] args) {
-			String[][] pairs = {{"apple", "papel"}, {"carrot", "tarroc"}, {"hello", "llloh"}};
+			String[][] pairs = {{"apple", "papel"}, {"carrot", "tarcor"}, {"hello", "llloh"}};
 			for (String[] pair : pairs) {
 				String word1 = pair[0];
 				String word2 = pair[1];
