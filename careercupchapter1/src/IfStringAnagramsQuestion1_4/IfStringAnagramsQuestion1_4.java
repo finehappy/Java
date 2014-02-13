@@ -8,7 +8,7 @@ public class IfStringAnagramsQuestion1_4 {
 			int num_unique_chars = 0;
 			int num_completed_t = 0;
 			char[] s_array = s.toCharArray();
-			for (char c : s_array) { // count number of each char in s.
+			for (char c : s_array) { // count number of each char in s，冒号指把s_array里的每个元素都拿出来放到c里.
 				if (letters[c] == 0) ++num_unique_chars;
 				++letters[c];
 			}
